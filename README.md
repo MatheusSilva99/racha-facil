@@ -1,23 +1,41 @@
-# Racha-fácil
+#  Racha Fácil
 
-O **Racha-fácil** é um software desenvolvido com o objetivo de facilitar a divisão de contas entre amigos de forma rápida, prática e justa.
+O **Racha Fácil** é uma aplicação web desenvolvida para facilitar a divisão de contas entre amigos de maneira rápida, prática e justa. A solução automatiza cálculos e organiza os valores de forma clara, evitando erros e possíveis conflitos em situações como restaurantes, viagens ou eventos.
 
-## Funcionalidades
+---
 
-- **Adicionar participantes:** inclusão simples e rápida de todas as pessoas envolvidas na divisão da conta.
-- **Registrar consumo:** lançamento dos itens consumidos por cada participante.
-- **Cálculo automático:** o sistema calcula automaticamente quanto cada pessoa deve pagar, de forma precisa e sem erros.
+##  Funcionalidades
 
-## Objetivo
+-  **Adicionar participantes**  
+  Permite incluir facilmente todas as pessoas envolvidas na divisão.
 
-O sistema tem como objetivo automatizar o processo de divisão de despesas, reduzindo erros de cálculo e evitando conflitos ou discussões entre os participantes.
+-  **Registrar consumo**  
+  Possibilita o lançamento de itens consumidos individualmente ou em grupo.
 
-##Comandos para testas e baixar as Dependências
+-  **Cálculo automático**  
+  Realiza a divisão dos valores de forma precisa, informando quanto cada participante deve pagar.
 
+---
+
+##  Objetivo
+
+Automatizar o processo de divisão de despesas, proporcionando mais organização, transparência e praticidade, além de reduzir erros de cálculo e evitar discussões entre os envolvidos.
+
+---
+
+##  Tecnologias Utilizadas
+
+- JavaScript  
+- Node.js  
+- Express.js  
+
+---
+
+##  Como executar o projeto
+
+### 1. Verifique se o Node.js está instalado:
+```bash
 node -v
 npm -v
-npm init -y
-npm install express
-node server.js
     
       
