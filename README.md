@@ -11,5 +11,13 @@ O **Racha-fácil** é um software desenvolvido com o objetivo de facilitar a div
 ## Objetivo
 
 O sistema tem como objetivo automatizar o processo de divisão de despesas, reduzindo erros de cálculo e evitando conflitos ou discussões entre os participantes.
+
+##Comandos para testas e baixar as Dependências
+
+node -v
+npm -v
+npm init -y
+npm install express
+node server.js
     
       
