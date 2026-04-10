@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Racha Fácil</title>
+</head>
+<body>
+  <h1>Dividir Conta</h1>
+
+  <input id="valor" placeholder="Valor total"><br>
+  <input id="pessoas" placeholder="Nomes separados por vírgula"><br>
+  <button onclick="dividir()">Dividir</button>
+
+  <pre id="resultado"></pre>
+
+  <script>
+    async function dividir() {
+      const valor = document.getElementById('valor').value;
+      const pessoas = document.getElementById('pessoas').value.split(',');
+
+      const res = await fetch('http://localhost:3000/conta', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ valor, pessoas })
+      });
+
+      const data = await res.json();
+      document.getElementById('resultado').innerText =
+        JSON.stringify(data, null, 2);
+    }
+  </script>
+</body>
+</html>
