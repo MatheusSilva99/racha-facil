@@ -37,5 +37,6 @@ Automatizar o processo de divisão de despesas, proporcionando mais organizaçã
 ```bash
 node -v
 npm -v
-    
+npm install express
+node server.js    
       
